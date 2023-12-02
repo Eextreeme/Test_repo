@@ -1,3 +1,4 @@
+'going to histiry main  '
 class Musician:
     def __init__(self, name_of_group, honorar, age):
         """
