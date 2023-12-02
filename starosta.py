@@ -9,6 +9,7 @@ class Musician:
 
     def __del__(self):
         print(f"Group {self.__name_of_group} has been removed")
+        print('breanch')
 
     def get_name_of_group(self):
         return self.__name_of_group
