@@ -60,9 +60,10 @@ if __name__ == "__main__":
     group_2 = Musician("BabyMetal", 30000, 5)
     group_3 = Musician("Rammstein", 50000, 24)
 
-    festival = MusicFestival(100000, [group_1, group_2, group_3])
+    festival = MusicFestival(100000)
 
     print(f"\n{str(group_1)}\n")
     print(f"{str(group_2)}\n")
     print(f"{str(group_3)}\n")
     print(festival.group_list)
+    print('commit')
