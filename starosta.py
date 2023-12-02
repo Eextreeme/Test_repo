@@ -50,6 +50,9 @@ class MusicFestival:
         """
         print('hello world')
 
+        pass
+        
+
 
 if __name__ == "__main__":
     group_1 = Musician("AC/DC", 25000, 20)
