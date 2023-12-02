@@ -72,12 +72,15 @@ class Country:
 
 class Land:
     """Creats a Land object"""
-    def __init__(self, name):
+    def __init__(self, name, country = None):
         '''
             initializating attibutes
         '''
         self.__name = name
-        self.__countries = []
+        if country == None:
+            self.__countries = []
+        else:
+            self.__countries = country
 
     def get_name(self):
         '''
