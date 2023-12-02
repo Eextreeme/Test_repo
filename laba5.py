@@ -81,7 +81,7 @@ class Land:
             self.__countries = []
         else:
             self.__countries = country
-
+        print('check my code')
     def get_name(self):
         '''
             returns land's name 
