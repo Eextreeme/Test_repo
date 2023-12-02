@@ -67,4 +67,4 @@ if __name__ == "__main__":
     print(f"{str(group_3)}\n")
     print(festival.group_list)
     print('hello branch')
-    print('try to commit to main')
+    print('crazy')
