@@ -162,10 +162,8 @@ if __name__ == "__main__":
     country3 = Country("Індія", "Нью Делі", "IN", 1380004385, 3287263, 2.87, GovernmentType(1))
     country4 = Country("Україна", "Київ", "UA", 40997699, 603550, 0.2, GovernmentType(1))
 
-    land1 = Land("Азії")
-    land1.add_country(country2)
-    land1.add_country(country3)
-
+    land1 = Land("Азії", [country1, country2])
+    
     land2 = Land("Північна Америка")
     land2.add_country(country1)
 
